@@ -10,3 +10,5 @@ except ZeroDivisionError as z:
     print(z)
 except ValueError as v:
     print(v)
+finally:
+    print("Выполнение программы завершено")
